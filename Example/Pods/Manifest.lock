@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.5)
+  - RZUtil_iOS (0.1.0)
+  - Specta (1.0.6)
+
+DEPENDENCIES:
+  - Expecta
+  - RZUtil_iOS (from `../`)
+  - Specta
+
+EXTERNAL SOURCES:
+  RZUtil_iOS:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: e1c022fcd33910b6be89c291d2775b3fe27a89fe
+  RZUtil_iOS: 00b437e088055e7c8eb9d5d7c2fa72c567287d6d
+  Specta: f506f3a8361de16bc0dcf3b17b75e269072ba465
+
+PODFILE CHECKSUM: 2a1b26a18bd5032aa03eb05ea40bff7aad66e236
+
+COCOAPODS: 1.2.1

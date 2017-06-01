@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'RZUtil_iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RZUtil_iOS.'
+  s.summary          = 'Utility package to provide easy logging and shortcut for some commonly code.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,7 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'This package contains a various class to help in iOS development. It contains logger class which can log different objects in a more readible format. It also contains code shortcuts to help reduce the keystroke needed in development. This is personal project and the quality and maintainance is on Best effort'
 
   s.homepage         = 'https://github.com/skylinezy/RZUtil_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
