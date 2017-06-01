@@ -1,0 +1,7 @@
+use_frameworks!
+target 'RZUtil_iOS_Tests' do
+  pod 'RZUtil_iOS', :path => '../'
+  
+  pod 'Specta'
+  pod 'Expecta'
+end
