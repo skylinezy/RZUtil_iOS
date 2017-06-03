@@ -1,8 +1,8 @@
 {
   "name": "RZUtil_iOS",
   "version": "0.1.0",
-  "summary": "A short description of RZUtil_iOS.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Utility package to provide easy logging and shortcut for some commonly code.",
+  "description": "This package contains a various class to help in iOS development. It contains logger class which can log different objects in a more readible format. It also contains code shortcuts to help reduce the keystroke needed in development. This is personal project and the quality and maintainance is on Best effort",
   "homepage": "https://github.com/skylinezy/RZUtil_iOS",
   "license": {
     "type": "MIT",

@@ -11,6 +11,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+ARC
 iOS 8.0 and above
 
 ## Installation

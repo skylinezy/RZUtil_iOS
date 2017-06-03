@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "RZUtilLogger.h"
 
 FOUNDATION_EXPORT double RZUtil_iOSVersionNumber;
 FOUNDATION_EXPORT const unsigned char RZUtil_iOSVersionString[];

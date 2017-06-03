@@ -8,40 +8,35 @@
 
 // https://github.com/Specta/Specta
 
+@import RZUtil_iOS;
+
 SpecBegin(InitialSpecs)
 
-describe(@"these will fail", ^{
-
-    it(@"can do maths", ^{
-        expect(1).to.equal(2);
-    });
-
-    it(@"can read", ^{
-        expect(@"number").to.equal(@"string");
-    });
+describe(@"logString function on logger", ^{
     
-    it(@"will wait for 10 seconds and fail", ^{
-        waitUntil(^(DoneCallback done) {
+    __block NSString *rectStr;
+    __block NSString *pointStr;
+    
+    __block CGRect rect1;
+    __block CGPoint point1;
+    
+    beforeEach(^{
+       
+        rectStr = @"\nOrigin -> (x: 0.00, y: 0.00), Dim -> (width: 100.00, height: 101.23)";
+        pointStr = @"\nPoint -> (x: 10.00, y: 10.20)";
         
-        });
-    });
-});
-
-describe(@"these will pass", ^{
-    
-    it(@"can do maths", ^{
-        expect(1).beLessThan(23);
+        rect1 = CGRectMake(0, 0, 100.0, 101.23);
+        point1 = CGPointMake(10.0, 10.2);
+        
     });
     
-    it(@"can read", ^{
-        expect(@"team").toNot.contain(@"I");
+    it(@"should return string", ^{
+        
+        expect([RZUtilLogger logStringFromRect:rect1]).to.equal(rectStr);
+        expect([RZUtilLogger logStringFromPoint:point1]).to.equal(pointStr);
+        
     });
     
-    it(@"will wait and succeed", ^{
-        waitUntil(^(DoneCallback done) {
-            done();
-        });
-    });
 });
 
 SpecEnd

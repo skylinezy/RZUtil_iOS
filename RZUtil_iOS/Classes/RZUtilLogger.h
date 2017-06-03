@@ -10,4 +10,7 @@
 
 @interface RZUtilLogger : NSObject
 
++ (NSString *)logStringFromRect:(CGRect)rect;
++ (NSString *)logStringFromPoint:(CGPoint)point;
+
 @end
