@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RZUtil_iOS'
-  s.version          = '0.2.0'
+  s.version          = '0.2.1'
   s.summary          = 'Utility package to provide easy logging and shortcut for some commonly code.'
 
 # This description is used to generate tags and improve search results.
